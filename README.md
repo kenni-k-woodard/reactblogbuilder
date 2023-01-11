@@ -35,3 +35,6 @@ _Please remember to deploy your main branch on Netlify and open a PR for a previ
 | Preview correctly displays updated state                         | 2      |
 
 small change
+
+Function HandleTitleChange(e) => {
+setTitle(e.target.value)}
