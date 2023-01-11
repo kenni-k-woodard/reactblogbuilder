@@ -11,7 +11,7 @@ export default function Home() {
 
   const [subtitle, setSubtitle] = useState('');
 
-  const [font, handleFontChange] = useState('titillium');
+  const [font, handleFontChange] = useState('');
 
   const [text, setText] = useState('');
 
