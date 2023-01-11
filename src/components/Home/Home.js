@@ -11,11 +11,20 @@ export default function Home() {
 
   const [subtitle, setSubtitle] = useState('');
 
+  const [font, handleFontChange] = useState('titillium');
+
+  const [text, setText] = useState('');
+
   return (
     <main>
       {/* pass the state variables as props to the presentational components */}
-      <Preview title={title} subtitle={subtitle} />
-      <Editor setTitle={setTitle} setSubtitle={setSubtitle} />
+      <Preview title={title} subtitle={subtitle} font={font} text={text} />
+      <Editor
+        setTitle={setTitle}
+        setSubtitle={setSubtitle}
+        handleFontChange={handleFontChange}
+        setText={setText}
+      />
     </main>
   );
 }
