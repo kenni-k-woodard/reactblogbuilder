@@ -13,7 +13,7 @@
 
 The objective of this application is to create a mini "Blog Builder" that contains an editing panel and a preview panel. When the attributes in the editing panel are updated, their new values are reflected in the preview.
 
-You have been provided with `<Home/>` component, an `<Editor>` component, and an completely empty `<Preview> component. Your job is to add state to the `<Home>` component which will then be passed down to the `<Editor>` and `<Preview>` components.
+You have been provided with `<Home/>` component, an `<Editor>` component, and an completely empty `<Preview> component. Your job is to add state to the `<Home>`component which will then be passed down to the`<Editor>`and`<Preview>` components.
 
 _Note: The rubric expects a commit for every variable. Start with a single prop and do the following:_
 
@@ -33,3 +33,8 @@ _Please remember to deploy your main branch on Netlify and open a PR for a previ
 | State variables are setters are passed as props to Editor.js     | 2      |
 | Editor correctly updates state variables when each input changes | 2      |
 | Preview correctly displays updated state                         | 2      |
+
+small change
+
+Function HandleTitleChange(e) => {
+setTitle(e.target.value)}
